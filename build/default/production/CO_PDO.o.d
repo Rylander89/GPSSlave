@@ -1,8 +1,8 @@
 build/default/production/CO_PDO.o:  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/CO_PDO.c  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/CO_DEFS.DEF  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/CO_types.h  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/CO_CANDRV.H  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/CO_COMM.h  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/CO_PDO.h  \
+	C:/dev/utvecklingsprojekt/GPSSlave/CO_PDO.c  \
+	C:/dev/utvecklingsprojekt/GPSSlave/CO_DEFS.DEF  \
+	C:/dev/utvecklingsprojekt/GPSSlave/CO_types.h  \
+	C:/dev/utvecklingsprojekt/GPSSlave/CO_CANDRV.H  \
+	C:/dev/utvecklingsprojekt/GPSSlave/CO_COMM.h  \
+	C:/dev/utvecklingsprojekt/GPSSlave/CO_PDO.h  \
 

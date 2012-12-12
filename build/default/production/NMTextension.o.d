@@ -1,7 +1,7 @@
 build/default/production/NMTextension.o:  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/NMTextension.c  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/CO_NMT.h  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/CO_types.h  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/CO_COMM.h  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/IOutils.h  \
+	C:/dev/utvecklingsprojekt/GPSSlave/NMTextension.c  \
+	C:/dev/utvecklingsprojekt/GPSSlave/CO_NMT.h  \
+	C:/dev/utvecklingsprojekt/GPSSlave/CO_types.h  \
+	C:/dev/utvecklingsprojekt/GPSSlave/CO_COMM.h  \
+	C:/dev/utvecklingsprojekt/GPSSlave/IOutils.h  \
 

@@ -1,3 +1,3 @@
 build/default/production/Timer.o:  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/Timer.c  \
+	C:/dev/utvecklingsprojekt/GPSSlave/Timer.c  \
 

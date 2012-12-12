@@ -6,7 +6,7 @@
 char SpeedArray[ 6 ] = { 0 };
 char HeadingArray[ 8 ] = { 0 };
 
-int ParseNMEA()
+int ParseNMEA(void)
 {
     unsigned int comma = 0;
     char *p = GPS_Value;

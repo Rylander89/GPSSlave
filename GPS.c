@@ -37,7 +37,7 @@ char vtg_on[] = {"$PSRF103,05,00,01,01*20\r\n"};
 
 //************************************************
 
-void InitializeGPS()
+void InitializeGPS(void)
 {
     // configure USART
     OpenUSART( USART_TX_INT_OFF &
@@ -62,7 +62,7 @@ void InitializeGPS()
     putsUSART(vtg_on);
 }
 
-void ReadGPSNMEA()
+void ReadGPSNMEA(void)
 {
     char first = 0x00;
     newSpeed = 0x00;

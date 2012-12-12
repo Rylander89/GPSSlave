@@ -1,10 +1,10 @@
 #include	"CO_MAIN.H"
-#include        "Compilation.h"
 #include        "Slave.h"
 #include        "IOutils.h"
-#include        "Ultraljud.h"
 #include        "Globals.h"
 #include        "NMEAParser.h"
+#include        "GPS.h"
+
 
 #define	RTR_DIS	bytes.B1.bits.b2
 #define STD_DIS	bytes.B1.bits.b3
@@ -46,7 +46,7 @@ unsigned short Speed = 0x00;
 
 void Slave_Init(void)
 {
-	uLocalRcvBuffer[0] = uLocalXmtBuffer[0] = 0xAB;
+	uLocalRcvBuffer[0] = uLocalXmtBuffer[0] = 0;
 	uLocalRcvBuffer[1] = uLocalXmtBuffer[1] = 0;
 	uLocalRcvBuffer[2] = uLocalXmtBuffer[2] = 0;
 	uLocalRcvBuffer[3] = uLocalXmtBuffer[3] = 0;

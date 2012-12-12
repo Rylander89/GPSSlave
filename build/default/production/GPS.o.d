@@ -1,7 +1,7 @@
 build/default/production/GPS.o:  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/GPS.c  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/NMEAParser.h  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/Globals.h  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/GPS.h  \
-	C:/Users/Anton/Documents/Utvecklingsprojekt/GPSSlave/GPSSlave.X/IOutils.h  \
+	C:/dev/utvecklingsprojekt/GPSSlave/GPS.c  \
+	C:/dev/utvecklingsprojekt/GPSSlave/NMEAParser.h  \
+	C:/dev/utvecklingsprojekt/GPSSlave/Globals.h  \
+	C:/dev/utvecklingsprojekt/GPSSlave/GPS.h  \
+	C:/dev/utvecklingsprojekt/GPSSlave/IOutils.h  \
 
