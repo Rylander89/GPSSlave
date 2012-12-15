@@ -104,13 +104,6 @@ UNSIGNED8 _rx_pdo_flg;
 
 
 
-
-char myhandle = 8;
-
-
-
-int j = 9;
-
 /*********************************************************************
  * Function:        void _CO_COMMResetEventManager(void)
  *
