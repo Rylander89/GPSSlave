@@ -56,12 +56,12 @@ void Slave_Init(void)
 	uLocalRcvBuffer[7] = uLocalXmtBuffer[7] = 0;
 
         // Convert to MCHP
-	mTOOLS_CO2MCHP(mCOMM_GetNodeID().byte + 0xC0000200L);
+	mTOOLS_CO2MCHP(mCOMM_GetNodeID().byte + 0xC0000180L);
 	// Store the COB
 	mTPDOSetCOB(1, mTOOLS_GetCOBID());
 
 	// Convert to MCHP
-	mTOOLS_CO2MCHP(mCOMM_GetNodeID().byte + 0xC0000300L);
+	mTOOLS_CO2MCHP(mCOMM_GetNodeID().byte + 0xC0000280L);
         // Store the COB
 	mTPDOSetCOB(2, mTOOLS_GetCOBID());
 
