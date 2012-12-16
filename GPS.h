@@ -2,7 +2,7 @@
 #define	GPS_H
 
 void InitializeGPS(void);
-void ReadGPSNMEA(void);
+int ReadGPSNMEA(void);
 
 #endif	/* GPS_H */
 

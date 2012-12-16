@@ -6,7 +6,6 @@
 
 char GPS_Value[44] = { 0 };
 char temp[6] = { 0 };
-char newSpeed = 0x00;
 //NMEA messages for initialization
 //************************************************
 
@@ -62,14 +61,14 @@ void InitializeGPS(void)
     putsUSART(vtg_on);
 }
 
-void ReadGPSNMEA(void)
+int ReadGPSNMEA(void)
 {
     char first = 0x00;
-    newSpeed = 0x00;
     first = ReadUSART();
     if(first == '$')
     {
         getsUSART(GPS_Value, 40);
-        newSpeed = 0x01;
+        return 1;
     }
+    return 0;
 }

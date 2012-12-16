@@ -15,7 +15,6 @@
 #define ONE_MS          ((unsigned int)(DEVICE_OSC/4)*80)
 
 extern char GPS_Value[44];
-extern char newSpeed;
 
 #endif	/* GLOBALS_H */
 

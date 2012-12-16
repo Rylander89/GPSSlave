@@ -22,7 +22,7 @@ void main(void)
         // 0x00 => 1Mbps
 	mCO_SetBaud(0x05);		
 
-	mNMTE_SetHeartBeat(0x0064);
+	mNMTE_SetHeartBeat(0x0004);
 	mNMTE_SetGuardTime(0000);	
 	mNMTE_SetLifeFactor(0x00);	
 

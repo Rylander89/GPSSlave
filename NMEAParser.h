@@ -4,7 +4,7 @@
 extern char SpeedArray[ 6 ];
 
 int ParseNMEA(void);
-void GetSpeed(short *speed);
+void GetSpeed(unsigned short *speed);
 
 #endif	/* NMEAPARSER_H */
 

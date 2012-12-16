@@ -34,11 +34,10 @@ int ParseNMEA(void)
     }
 }
 
-void GetSpeed( short *speed )
+void GetSpeed( unsigned short *speed )
 {
     char *p = SpeedArray;
     int i;
-    *speed = 0;
     for(i=0; i<6; i++)
     {
         *speed += (int)(*p-48);

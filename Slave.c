@@ -43,6 +43,8 @@ unsigned char uDemoSyncCount;			// Counter for synchronous types
 unsigned char uDemoSyncSet;				// Internal TPDO type control
 
 unsigned short Speed = 0x00;
+unsigned char oldSpeed = 0x00;
+unsigned char newSpeed = 0x00;
 
 void Slave_Init(void)
 {
@@ -76,14 +78,18 @@ void Slave_Init(void)
 
 void Slave_ProcessEvents(void)
 {
-        int i = 0;
-        ReadGPSNMEA();
-        ParseNMEA();
-        GetSpeed(&Speed);
-        
-        if (mTPDOIsPutRdy(1))
+    if( mNMT_StateIsOperational() )
+    {
+        oldSpeed = Speed;
+        if(ReadGPSNMEA())
+        {
+            ParseNMEA();
+            GetSpeed(&Speed);
+        }
+        newSpeed = (oldSpeed != Speed) ? 1:0;
+        if (mTPDOIsPutRdy(1) && newSpeed)
             mTPDOWritten(1);
-        i = 1;
+    }
 }
 
 
